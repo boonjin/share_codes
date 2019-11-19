@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Traffic Light</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css"
+        href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css">
+    <!-- <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css"> -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.6.0/underscore-min.js"></script>
+
+    <script src="javascript.js"></script>
+    <!-- endbuild -->
+</head>
+
+<body style="width:100%;min-height:100%;overflow:hidden;padding:10px;">
+
+    <!-- <form id="text-form"> -->
+    <div class="row">
+        <div class="col-md-6 col-md-offset-3">
+            <h4>&nbsp</h4>
+            <h4>Enter response:</h4>
+            <!-- <input type="text" style="display: block" class="form-control" id="text-response-long"  autocomplete="off" maxlength="280" placeholder="max 280 characters" > -->
+            <!-- <textarea rows="1" cols="40" name="usrtxt" wrap="hard" id="text-response-long" maxlength="280" placeholder="max 280 characters"></textarea> -->
+            <textarea rows="5" cols="40" name="usrtxt" wrap="soft" id="text-response-long" maxlength="500"
+                placeholder="max 500 characters"></textarea>
+
+
+            <input type="text" style="display: none" class="form-control" id="text-response-short" autocomplete="off"
+                maxlength="140" placeholder="max 140 characters">
+            <!-- <textarea rows="1" cols="40" name="usrtxt" wrap="hard" id="text-response" maxlength="280" placeholder="max 280 characters"></textarea> -->
+
+
+        </div>
+    </div>
+    <!-- <div id="summernote">Hello Summernote</div> -->
+    <br>
+    <div class="row">
+        <div class="col-md-3 col-md-offset-7">
+            <!-- <div class="btn-group"> -->
+            <button type="button" class="btn btn-default btn-large" id="buttonReset">Clear</button>
+            <button type="submit" class="btn btn-disabled btn-large" disabled id="buttonModify">Modify</button>
+            <button type="submit" class="btn btn-success btn-large" id="buttonSubmit">Submit</button>
+
+            <!-- </div> -->
+        </div>
+    </div>
+
+</body>
+
+</html>
